@@ -1,0 +1,178 @@
+#######################################################
+# 🌟 Universal .gitignore for AI + MLOps + Terraform  #
+# Author: Arbind Kumar Mahato (Tech Mahato)           #
+# Repo: ai-mlops-zero-to-hero                         #
+#######################################################
+
+# -----------------------
+# 🐍 Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.manifest
+*.spec
+*.lock
+*.log
+
+# Virtual environment & dependency caches
+.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+__pypackages__/
+
+# -----------------------
+# 📓 Jupyter & Notebooks
+# -----------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -----------------------
+# 📦 Data & Artifacts
+# -----------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.json
+*.feather
+*.zip
+*.tar
+*.gz
+*.h5
+*.pkl
+*.model
+*.onnx
+models/
+artifacts/
+checkpoints/
+logs/
+runs/
+mlruns/
+wandb/
+outputs/
+reports/
+screenshots/
+
+# -----------------------
+# 🧰 Terraform & IaC
+# -----------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+*.tfvars.json
+# Local Terraform backends
+*.tfplan
+*.backup
+
+# -----------------------
+# 📦 DVC (Data Version Control)
+# -----------------------
+.dvc/
+.cache/
+*.dvc
+*.dvcignore
+*.dvc.lock
+
+# -----------------------
+# 🧱 Docker
+# -----------------------
+*.pid
+*.seed
+Dockerfile~
+docker-compose.override.yml
+docker-compose.debug.yml
+
+# -----------------------
+# 🧠 MLflow & Experiments
+# -----------------------
+mlartifacts/
+mlruns/
+mlflow.db
+mlflow/
+tmp/
+temp/
+
+# -----------------------
+# 🧩 Airflow
+# -----------------------
+airflow/logs/
+airflow/tmp/
+airflow/unittests.cfg
+airflow/*.db
+
+# -----------------------
+# 🪣 AWS / Cloud
+# -----------------------
+.aws/
+*.pem
+*.key
+*.crt
+*.csr
+*.ppk
+*.der
+credentials/
+secrets/
+.env
+.env.*
+*.bak
+*.old
+
+# -----------------------
+# 🧰 IDEs & Editors
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.bak
+
+# -----------------------
+# 📊 Reports / Docs / Misc
+# -----------------------
+*.pdf
+*.docx
+*.pptx
+*.md.html
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# 🧩 Node / JS (if used later)
+# -----------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# -----------------------
+# 🚀 Others
+# -----------------------
+tests/__pycache__/
+tests/.pytest_cache/
+tmp/
+temp/
+backup/
+*.bak
+*.tmp
+*.old
+*.retry
